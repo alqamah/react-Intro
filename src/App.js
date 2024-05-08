@@ -1,14 +1,11 @@
-import React from "react";
+import MovieCard from "./MovieCard";
 
-class App extends React.Component{
+export default function App(){
+  return(
+    <>
+    <h1>Movie App</h1>
+    <MovieCard />
+    </>
 
-  render(){
-      return(
-          <div>
-              <h1>Class Component</h1>
-          </div>
-      )
-    }
+  )
 }
-
-export default App;
